@@ -1,0 +1,252 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {   
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+// main  
+header {
+    
+max-width: 100%;
+    height: 100vh;
+    background-color: 
+    #f9d423;
+    display: grid;
+    position: relative;
+    .navB {
+        position: absolute;
+        top: 0;
+        left:0;
+        right:0;
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        align-items: center;
+
+        p {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #f9d423;
+        }
+    }
+    .saleAnnonce {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        h1 {
+            font-size: 12rem;
+            color: rgb(253,37,108);
+        }
+       .DP {
+            display: grid;
+            place-items: center;
+            align-items: center;
+            transform: rotate(130deg);
+            -webkit-transform: rotate(130deg);
+            -moz-transform: rotate(130deg);
+            -ms-transform: rotate(130deg);
+            -o-transform: rotate(130deg);
+        img {
+            width: 250px;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        .line {
+            height: 10px;
+            width: 400px;
+            background-color: rgb(253,37,108);
+
+        }
+       }
+
+    }
+
+    .donutLineBreak {
+        display: inline-flex;
+        justify-content: center;
+        margin-top: 30px;
+        img {
+            height: 30px;
+            width: 30px;
+            object-fit: contain;
+        }
+    }
+}
+
+.shopNow {
+    width: 100%;
+    height: 50vh;
+    margin-top: 80px;
+    margin-left: 50px;
+    .adverInfo {
+        width: 800px;
+        h2 {
+            font-size: 3rem;
+            color: #f9d423;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: rgb(79,29,0);
+        }
+    }
+
+
+    .btns {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-transform: uppercase;
+
+        .btn {
+            display: grid;
+            padding: 20px 55px;
+            margin-top: 30px;
+            border-style: solid;
+            background-color: rgb(253,37,108);
+            color: rgb(242,241,225);
+            cursor: grab;
+            
+            &:active {
+                background-color:  rgb(79,29,0);
+                cursor: grabbing;
+            }
+        
+        }
+    }
+   
+}
+
+#productShowCase {
+    width: 100%;
+    height: 145vh;
+    background: #f9d423;
+
+    .prodtMaincon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        
+        .prodctCard {
+            background-color: rgb(242,241,225);
+            margin-top: 50px;
+            width: 400px;
+            
+
+            .imgCard {
+                display: grid;
+                place-items: center;
+                background-color: white;
+                img {
+                    width: 250px;
+                    height: 250px;
+                    object-fit: contain;
+
+                }
+            }
+            .nameCard {
+                height: 100%;
+                width: 85%;
+                display: grid;
+                margin-left: 10px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                .name {
+                    color: rgb(79,29,0);
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+
+                .descript {
+                    color: rgb(116, 52, 16);
+                }
+            }
+        }
+    }
+}
+#qt {
+    width: 100%;
+    max-height: 80vh;
+    display: grid;
+    place-items: center;
+
+         img {
+           width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        p {
+            position: absolute;
+            font-size: 2.5rem;
+            z-index: 1;
+            color: #f9d423;
+            font-weight: bold;
+            margin-top: 100px;
+        }
+
+        
+}
+footer {
+    #moreInfoContact {
+        width: 100%;
+        height: 80vh;
+        .social {
+            padding-top: 300px;
+            display: grid;
+            place-items: center;
+    
+            p {
+                font-size: 2rem;
+                font-weight: bold;
+                color: rgb(79,29,0);
+            }
+    
+            .socialCont {
+                    margin-top: 50px;
+                    display: flex;
+                    gap: 10px;
+                    
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        object-fit: contain;
+                        cursor: pointer;
+                        
+                    }
+            }
+        }
+    
+    }
+
+    .contactAndUnSub {
+        display: grid;
+        place-items: center;
+        margin-bottom: 50px;
+
+        a {
+            cursor: pointer;
+        }
+
+        .right,.addrss {
+            font-weight: bold;
+        }
+    }
+}
+

@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  max-width: 100%;
+  height: 100vh;
+  background-color: #f9d423;
+  display: grid;
+  position: relative;
+}
+header .navB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+header .navB p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f9d423;
+}
+header .saleAnnonce {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+header .saleAnnonce h1 {
+  font-size: 12rem;
+  color: rgb(253, 37, 108);
+}
+header .saleAnnonce .DP {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  transform: rotate(130deg);
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+}
+header .saleAnnonce .DP img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header .saleAnnonce .DP .line {
+  height: 10px;
+  width: 400px;
+  background-color: rgb(253, 37, 108);
+}
+header .donutLineBreak {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+header .donutLineBreak img {
+  height: 30px;
+  width: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.shopNow {
+  width: 100%;
+  height: 50vh;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.shopNow .adverInfo {
+  width: 800px;
+}
+.shopNow .adverInfo h2 {
+  font-size: 3rem;
+  color: #f9d423;
+  margin-bottom: 15px;
+}
+.shopNow .adverInfo p {
+  font-size: 1rem;
+  color: rgb(79, 29, 0);
+}
+.shopNow .btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+.shopNow .btns .btn {
+  display: grid;
+  padding: 20px 55px;
+  margin-top: 30px;
+  border-style: solid;
+  background-color: rgb(253, 37, 108);
+  color: rgb(242, 241, 225);
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.shopNow .btns .btn:active {
+  background-color: rgb(79, 29, 0);
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+#productShowCase {
+  width: 100%;
+  height: 145vh;
+  background: #f9d423;
+}
+#productShowCase .prodtMaincon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+#productShowCase .prodtMaincon .prodctCard {
+  background-color: rgb(242, 241, 225);
+  margin-top: 50px;
+  width: 400px;
+}
+#productShowCase .prodtMaincon .prodctCard .imgCard {
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
+#productShowCase .prodtMaincon .prodctCard .imgCard img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#productShowCase .prodtMaincon .prodctCard .nameCard {
+  height: 100%;
+  width: 85%;
+  display: grid;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#productShowCase .prodtMaincon .prodctCard .nameCard .name {
+  color: rgb(79, 29, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+#productShowCase .prodtMaincon .prodctCard .nameCard .descript {
+  color: rgb(116, 52, 16);
+}
+
+#qt {
+  width: 100%;
+  max-height: 80vh;
+  display: grid;
+  place-items: center;
+}
+#qt img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#qt p {
+  position: absolute;
+  font-size: 2.5rem;
+  z-index: 1;
+  color: #f9d423;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+footer #moreInfoContact {
+  width: 100%;
+  height: 80vh;
+}
+footer #moreInfoContact .social {
+  padding-top: 300px;
+  display: grid;
+  place-items: center;
+}
+footer #moreInfoContact .social p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(79, 29, 0);
+}
+footer #moreInfoContact .social .socialCont {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+footer #moreInfoContact .social .socialCont img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+footer .contactAndUnSub {
+  display: grid;
+  place-items: center;
+  margin-bottom: 50px;
+}
+footer .contactAndUnSub a {
+  cursor: pointer;
+}
+footer .contactAndUnSub .right, footer .contactAndUnSub .addrss {
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
